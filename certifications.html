@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>My Certifications</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <div id="navbar"></div>
+
+    <main class="container my-5">
+      <h1>My Certifications</h1>
+      <hr />
+
+      <div class="card mb-3">
+        <div class="card-body">
+          <h2 class="card-title">Certification Name 1</h2>
+          <p class="card-text">Description of certification 1.</p>
+          <a href="#" class="btn btn-primary">View Certificate</a>
+        </div>
+      </div>
+
+      <div class="card mb-3">
+        <div class="card-body">
+          <h2 class="card-title">Certification Name 2</h2>
+          <p class="card-text">Description of certification 2.</p>
+          <a href="#" class="btn btn-primary">View Certificate</a>
+        </div>
+      </div>
+
+      <!-- Add more certification cards here as needed -->
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script>
+      $(function () {
+        $("#navbar").load("navbar.html", function (response, status, xhr) {
+          if (status == "error") {
+            console.log(
+              "Error loading navbar: " + xhr.status + " " + xhr.statusText
+            );
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
