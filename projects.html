@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>My Projects</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div id="navbar"></div>
+
+    <div class="container my-5">
+      <h1 class="text-center mb-5">My Projects</h1>
+      <div class="row">
+        <div id="project-card" class="col-lg-6 col-md-6 col-sm-12 mb-5">
+          <div class="card h-100">
+            <img src="project1.png" class="card-img-top" alt="Project 1" />
+            <div class="card-body">
+              <h5 class="card-title">Project 1</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
+                eu elit vel odio elementum malesuada.
+              </p>
+              <a href="#" class="btn btn-primary">Learn More</a>
+            </div>
+          </div>
+        </div>
+        <div id="project-card" class="col-lg-6 col-md-6 col-sm-12 mb-5">
+          <div class="card h-100">
+            <img src="project2.png" class="card-img-top" alt="Project 2" />
+            <div class="card-body">
+              <h5 class="card-title">Project 2</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
+                eu elit vel odio elementum malesuada.
+              </p>
+              <a href="#" class="btn btn-primary">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script>
+      $(function () {
+        $("#navbar").load("navbar.html", function (response, status, xhr) {
+          if (status == "error") {
+            console.log(
+              "Error loading navbar: " + xhr.status + " " + xhr.statusText
+            );
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
