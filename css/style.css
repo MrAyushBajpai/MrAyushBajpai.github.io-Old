@@ -53,11 +53,16 @@
   color: #f8f9fa;
 }
 
-#certificate-card{
+#certificate-card {
   background-color: #000;
   color: #fff;
   border-radius: 0.1rem;
   border-color: #fff;
+}
+
+.card {
+  background-color: #000000;
+  color: #ffffff;
 }
 
 body {
