@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Me</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="navbar"></div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h1>About Me</h1>
+          <p>
+            Hello, my name is John Doe and I'm a web developer based in New York
+            City. I have a passion for building beautiful and responsive
+            websites that provide great user experience. I specialize in
+            front-end development, but I'm also familiar with back-end
+            technologies.
+          </p>
+          <p>
+            My goal is to create websites that not only look great, but also
+            solve real-world problems and provide value to users. I believe in
+            using the latest technologies and design trends to create websites
+            that stand out from the crowd.
+          </p>
+        </div>
+        <div class="col-md-6">
+          <img
+            src="https://via.placeholder.com/400x400"
+            alt="John Doe"
+            class="img-fluid"
+          />
+        </div>
+      </div>
+      <hr />
+      <div class="row">
+        <div class="col-md-6">
+          <h2>Education</h2>
+          <ul>
+            <li>
+              Bachelor's Degree in Computer Science, University of New York,
+              2014-2018
+            </li>
+            <li>
+              Master's Degree in Information Technology, New York University,
+              2018-2020
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <h2>Skills</h2>
+          <ul>
+            <li>HTML/CSS</li>
+            <li>JavaScript/jQuery</li>
+            <li>Bootstrap</li>
+            <li>React</li>
+            <li>Node.js/Express.js</li>
+            <li>MongoDB</li>
+            <li>Git/GitHub</li>
+          </ul>
+        </div>
+      </div>
+      <hr />
+      <div class="row">
+        <div class="col-md-6">
+          <h2>Achievements</h2>
+          <ul>
+            <li>
+              Recipient of the Outstanding Student Award, University of New
+              York, 2018
+            </li>
+            <li>
+              Published an academic paper on web accessibility, New York
+              University, 2020
+            </li>
+            <li>Completed a web development internship at Google, 2021</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script>
+      $(function () {
+        $("#navbar").load("navbar.html", function (response, status, xhr) {
+          if (status == "error") {
+            console.log(
+              "Error loading navbar: " + xhr.status + " " + xhr.statusText
+            );
+          }
+        });
+      });
+    </script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
