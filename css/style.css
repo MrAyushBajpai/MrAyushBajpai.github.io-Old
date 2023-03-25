@@ -1,279 +1,302 @@
 body {
-  font-family:"Rubik",sans-serif
-  }
-  
-  h1,h2,h3,h4,h5,h6 {
-  font-weight:700
-  }
-  
-  p {
-  font-weight:300
-  }
-  
-  .jumbotron {
-  color:#fff;
-  padding:100px 25px;
-  background-color:#222;
-  border:none;
-  border-radius:0;
-  box-shadow:0 .5rem 1rem rgba(0,0,0,0.15)
-  }
-  
-  .bg-grey {
-  background-color:#f6f6f6
-  }
-  
-  .thumbnail {
-  padding:0 0 15px;
-  border:none;
-  border-radius:0
-  }
-  
-  .thumbnail img {
-  width:100%;
-  height:100%;
-  margin-bottom:10px
-  }
-  
-  .caption {
-  color:#000;
-  text-align:center
-  }
-  
-  .container-fluid {
-  padding:60px 50px;
-  background-color:#000;
-  color:#fff
-  }
-  
-  .container {
-  padding:80px 120px
-  }
-  
-  .navbar-dark {
-  background-color:#000!important;
-  color:#fff
-  }
-  
-  .navbar-dark .navbar-brand,.navbar-dark .navbar-nav .nav-link {
-  color:#fff
-  }
-  
-  .navbar-dark .navbar-nav .nav-link:hover,.navbar-dark .navbar-nav .nav-link:focus {
-  color:#f8f9fa
-  }
-  
-  #certificate-card {
-  background-color:#000;
-  color:#fff;
-  border-radius:.1rem;
-  border-color:#4d4d4d
-  }
-  
-  .card {
-  background-color:#000;
-  color:#fff;
-  border-radius:.1rem;
-  border-color:#4d4d4d
-  }
-  
-  body {
-  background-color:#000;
-  color:#fff
-  }
-  
-  @media only screen and (max-width: 576px) {
+  font-family: "Rubik", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+}
+
+p {
+  font-weight: 300;
+}
+
+.jumbotron {
+  color: #fff;
+  padding: 100px 25px;
+  background-color: #222;
+  border: none;
+  border-radius: 0;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.bg-grey {
+  background-color: #f6f6f6;
+}
+
+.thumbnail {
+  padding: 0 0 15px;
+  border: none;
+  border-radius: 0;
+}
+
+.thumbnail img {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 10px;
+}
+
+.caption {
+  color: #000;
+  text-align: center;
+}
+
+.container-fluid {
+  padding: 60px 50px;
+  background-color: #000;
+  color: #fff;
+}
+
+.container {
+  padding: 80px 120px;
+}
+
+.navbar-dark {
+  background-color: #000 !important;
+  color: #fff;
+}
+
+.navbar-dark .navbar-brand,
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link:focus {
+  color: #f8f9fa;
+}
+
+#certificate-card {
+  background-color: #000;
+  color: #fff;
+  border-radius: 0.1rem;
+  border-color: #4d4d4d;
+}
+
+.card {
+  background-color: #000;
+  color: #fff;
+  border-radius: 0.1rem;
+  border-color: #4d4d4d;
+}
+
+body {
+  background-color: #000;
+  color: #fff;
+}
+
+@media only screen and (max-width: 576px) {
   h1 {
-  font-size:1.5rem
+    font-size: 1.5rem;
   }
-  
+
   h2 {
-  font-size:1.25rem
+    font-size: 1.25rem;
   }
-  
+
+  h3 {
+    font-size: 0.9rem;
+  }
+
   p {
-  font-size:.9rem
+    font-size: 0.9rem;
   }
-  
+
   ul {
-  font-size:.9rem
+    font-size: 0.9rem;
   }
-  
+
   img {
-  max-width:100%;
-  height:auto
+    max-width: 100%;
+    height: auto;
   }
-  
+
   #certificate-card {
-  max-width:100%;
-  margin:0
+    max-width: 100%;
+    margin: 0;
   }
-  
+
   .card-img {
-  height:150px
+    height: 150px;
   }
-  
+
   .card-body {
-  padding:8px
+    padding: 8px;
   }
-  
+
   .card-title {
-  font-size:20px
+    font-size: 20px;
   }
-  
+
   .card-text {
-  font-size:14px
+    font-size: 14px;
   }
-  
+
   .btn {
-  font-size:14px;
-  padding:6px 12px
+    font-size: 14px;
+    padding: 6px 12px;
   }
-  }
-  
-  @media only screen and (max-width: 768px) {
+}
+
+@media only screen and (max-width: 768px) {
   h1 {
-  font-size:2rem
+    font-size: 2rem;
   }
-  
+
   h2 {
-  font-size:1.5rem
+    font-size: 1.5rem;
   }
-  
+
+  h3 {
+    font-size: 1rem;
+  }
+
   p {
-  font-size:1rem
+    font-size: 1rem;
   }
-  
+
   ul {
-  font-size:1rem
+    font-size: 1rem;
   }
-  
+
   img {
-  max-width:100%;
-  height:auto
+    max-width: 100%;
+    height: auto;
   }
-  }
-  
-  #certificate-card {
-  max-width:100%;
-  margin:0
-  }
-  
-  .card-img {
-  height:200px
-  }
-  
-  .card-body {
-  padding:10px
-  }
-  
-  .card-title {
-  font-size:24px
-  }
-  
-  .card-text {
-  font-size:16px
-  }
-  
-  .btn {
-  font-size:16px;
-  padding:8px 16px
-  }
-  
-  @media only screen and (max-width: 992px) {
+}
+
+#certificate-card {
+  max-width: 100%;
+  margin: 0;
+}
+
+.card-img {
+  height: 200px;
+}
+
+.card-body {
+  padding: 10px;
+}
+
+.card-title {
+  font-size: 24px;
+}
+
+.card-text {
+  font-size: 16px;
+}
+
+.btn {
+  font-size: 16px;
+  padding: 8px 16px;
+}
+
+@media only screen and (max-width: 992px) {
   h1 {
-  font-size:2rem
+    font-size: 2rem;
   }
-  
+
   h2 {
-  font-size:1.5rem
+    font-size: 1.5rem;
   }
-  
+
+  h3 {
+    font-size: 1rem;
+  }
+
   p {
-  font-size:1rem
+    font-size: 1rem;
   }
-  
+
   ul {
-  font-size:1rem
+    font-size: 1rem;
   }
-  
+
   img {
-  max-width:100%;
-  height:auto
+    max-width: 100%;
+    height: auto;
   }
-  
+
   #certificate-card {
-  max-width:100%;
-  margin:0
+    max-width: 100%;
+    margin: 0;
   }
-  
+
   .card-img {
-  height:250px
+    height: 250px;
   }
-  
+
   .card-body {
-  padding:12px
+    padding: 12px;
   }
-  
+
   .card-title {
-  font-size:28px
+    font-size: 28px;
   }
-  
+
   .card-text {
-  font-size:18px
+    font-size: 18px;
   }
-  
+
   .btn {
-  font-size:18px;
-  padding:10px 20px
+    font-size: 18px;
+    padding: 10px 20px;
   }
-  }
-  
-  @media only screen and (min-width: 993px) {
+}
+
+@media only screen and (min-width: 993px) {
   h1 {
-  font-size:2.5rem
+    font-size: 2.5rem;
   }
-  
+
   h2 {
-  font-size:1.8rem
+    font-size: 1.8rem;
   }
-  
+
+  h3 {
+    font-size: 1.3rem;
+  }
+
   p {
-  font-size:1.2rem
+    font-size: 1.2rem;
   }
-  
+
   ul {
-  font-size:1.2rem
+    font-size: 1.2rem;
   }
-  
+
   img {
-  max-width:100%;
-  height:auto
+    max-width: 100%;
+    height: auto;
   }
-  
+
   #certificate-card {
-  max-width:800px;
-  margin:0 auto
+    max-width: 800px;
+    margin: 0 auto;
   }
-  
+
   .card-img {
-  height:300px
+    height: 300px;
   }
-  
+
   .card-body {
-  padding:1.25rem
+    padding: 1.25rem;
   }
-  
+
   .card-title {
-  font-size:2rem
+    font-size: 2rem;
   }
-  
+
   .card-text {
-  font-size:1rem
+    font-size: 1rem;
   }
-  
+
   .btn {
-  font-size:1rem;
-  padding:12px 24px
+    font-size: 1rem;
+    padding: 12px 24px;
   }
-  }
+}
