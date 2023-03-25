@@ -57,12 +57,14 @@
   background-color: #000;
   color: #fff;
   border-radius: 0.1rem;
-  border-color: #fff;
+  border-color: #4d4d4d;
 }
 
 .card {
   background-color: #000000;
   color: #ffffff;
+  border-radius: 0.1rem;
+  border-color: #4d4d4d;
 }
 
 body {
