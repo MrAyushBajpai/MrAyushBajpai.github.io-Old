@@ -1,9 +1,5 @@
 body {
   font-family: "Rubik", sans-serif;
-  background-image: url("../images/bg/bg-xl.jpg");
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
 }
 
 h1,
@@ -31,6 +27,14 @@ p {
 .bg-grey {
   background-color: #000;
   color: #fff
+}
+
+.bg-image {
+  background-image: url("../images/bg/bg-xl.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 .thumbnail {
@@ -108,7 +112,7 @@ body {
 }
 
 @media only screen and (max-width: 576px) {
-  body {
+  .bg-image {
     background-image: url("../images/bg/bg-sm.jpg");
   }
 
@@ -165,7 +169,7 @@ body {
 }
 
 @media only screen and (max-width: 768px) {
-  body {
+  .bg-image {
     background-image: url("../images/bg/bg-md.jpg");
   }
   
@@ -222,7 +226,7 @@ body {
 }
 
 @media only screen and (max-width: 992px) {
-  body {
+  .bg-image {
     background-image: url("../images/bg/bg-lg.jpg");
   }
   
@@ -279,7 +283,7 @@ body {
 }
 
 @media only screen and (min-width: 993px) {
-  body {
+  .bg-image {
     background-image: url("../images/bg/bg-xl.jpg");
   }
   
