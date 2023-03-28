@@ -1,5 +1,9 @@
 body {
   font-family: "Rubik", sans-serif;
+  background-image: url("../images/bg/bg-xl.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 h1,
@@ -17,15 +21,16 @@ p {
 
 .jumbotron {
   color: #fff;
+  background-color: transparent;
   padding: 100px 25px;
-  background-color: #222;
   border: none;
   border-radius: 0;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
 }
 
 .bg-grey {
-  background-color: #f6f6f6;
+  background-color: #000;
+  color: #fff
 }
 
 .thumbnail {
@@ -41,7 +46,7 @@ p {
 }
 
 .caption {
-  color: #000;
+  color: #fff;
   text-align: center;
 }
 
@@ -77,6 +82,19 @@ p {
   border-color: #4d4d4d;
 }
 
+#about {
+  background-color: #000;
+}
+
+#projects {
+  background-color: transparent;
+  color: #fff;
+}
+
+#home-project {
+  background-color: #000;
+}
+
 .card {
   background-color: #000;
   color: #fff;
@@ -90,6 +108,10 @@ body {
 }
 
 @media only screen and (max-width: 576px) {
+  body {
+    background-image: url("../images/bg/bg-sm.jpg");
+  }
+
   h1 {
     font-size: 1.5rem;
   }
@@ -143,6 +165,10 @@ body {
 }
 
 @media only screen and (max-width: 768px) {
+  body {
+    background-image: url("../images/bg/bg-md.jpg");
+  }
+  
   h1 {
     font-size: 2rem;
   }
@@ -196,6 +222,10 @@ body {
 }
 
 @media only screen and (max-width: 992px) {
+  body {
+    background-image: url("../images/bg/bg-lg.jpg");
+  }
+  
   h1 {
     font-size: 2rem;
   }
@@ -249,6 +279,10 @@ body {
 }
 
 @media only screen and (min-width: 993px) {
+  body {
+    background-image: url("../images/bg/bg-xl.jpg");
+  }
+  
   h1 {
     font-size: 2.5rem;
   }
