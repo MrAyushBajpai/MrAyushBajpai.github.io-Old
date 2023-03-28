@@ -17,7 +17,7 @@ git clone https://github.com/MrAyushBajpai/MrAyushBajpai.github.io.git
 - Home page with a brief introduction and links to other sections
 - Projects page that showcases my personal and professional projects
 - About me page that highlights my education, skills, and achievements
-- Contact me page with a form to send me an email
+- Contact me page with all the necessary links
 
 ## Technologies
 This website uses the following technologies:
