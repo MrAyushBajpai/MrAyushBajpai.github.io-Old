@@ -86,6 +86,10 @@ p {
   border-color: #4d4d4d;
 }
 
+#jumbotron-container {
+  background-color: transparent;
+}
+
 #about {
   background-color: #000;
 }
