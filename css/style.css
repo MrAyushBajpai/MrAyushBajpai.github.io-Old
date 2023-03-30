@@ -26,7 +26,7 @@ p {
 
 .bg-grey {
   background-color: #000;
-  color: #fff
+  color: #fff;
 }
 
 .bg-image {
@@ -52,6 +52,7 @@ p {
 .caption {
   color: #fff;
   text-align: center;
+  margin-top: 1rem;
 }
 
 .container-fluid {
@@ -176,7 +177,7 @@ body {
   .bg-image {
     background-image: url("../images/bg/bg-md.jpg");
   }
-  
+
   h1 {
     font-size: 2rem;
   }
@@ -233,7 +234,7 @@ body {
   .bg-image {
     background-image: url("../images/bg/bg-lg.jpg");
   }
-  
+
   h1 {
     font-size: 2rem;
   }
@@ -290,7 +291,7 @@ body {
   .bg-image {
     background-image: url("../images/bg/bg-xl.jpg");
   }
-  
+
   h1 {
     font-size: 2.5rem;
   }
