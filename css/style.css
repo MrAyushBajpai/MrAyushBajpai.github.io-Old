@@ -100,6 +100,10 @@ p {
   color: #fff;
 }
 
+#contact {
+  background-color: transparent;
+}
+
 #home-project {
   background-color: #000;
 }
